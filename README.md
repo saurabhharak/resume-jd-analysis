@@ -59,6 +59,12 @@ source venv/bin/activate  # On Windows use `venv\Scripts\activate`
 pip install -r requirements.txt
 ```
 
+### API Key Configuration
+Ensure you set your OpenAI API key in the `.env` file:
+```sh
+OPENAI_API_KEY=your_api_key_here
+```
+
 ## Usage
 Run the Streamlit application using:
 ```sh
@@ -87,14 +93,6 @@ resume-jd-analysis/
 │── requirements.txt          # Dependencies list
 ```
 
-## Configuration
-You can customize the application's behavior by modifying `config.py` and `.env` files.
-
-### API Key Configuration
-Ensure you set your OpenAI API key in the `.env` file:
-```sh
-OPENAI_API_KEY=your_api_key_here
-```
 ## UI
 
 ![alt text](demo/image.png)
